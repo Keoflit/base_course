@@ -1,6 +1,6 @@
 a = int(input())
 
-if a//2:
-    print('четное')
-else:
+if a % 2:
     print('нечетное')
+else:
+    print('четное')
