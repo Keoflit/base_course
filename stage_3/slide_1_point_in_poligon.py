@@ -1,8 +1,7 @@
 import numpy as np
 from scipy import interpolate
 import matplotlib.pyplot as plt
-import 
-.geometry as geom
+import shapely.geometry as geom
 
 phi = np.linspace(0, 2*np.pi, 40)
 r = 0.5 + np.cos(phi)
